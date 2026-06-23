@@ -1,0 +1,47 @@
+# ==============================================================================
+# ARCHIVO .gitignore - Archivos y carpetas a excluir del repositorio
+# ==============================================================================
+
+# Entorno virtual de Python
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de pytest y caché
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Reportes y logs
+reports/report.html
+logs/test_execution_*.log
+*.png
+*.jpg
+*.jpeg
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos del sistema
+Thumbs.db
+.env
+.env.local
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+
+# Dependencias
+*.lock
+poetry.lock

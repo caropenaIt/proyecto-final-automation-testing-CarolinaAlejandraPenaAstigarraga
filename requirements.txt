@@ -1,0 +1,28 @@
+# ==============================================================================
+# REQUISITOS DE INSTALACIÓN - Proyecto de QA Automation Testing
+# ==============================================================================
+# 
+# Para instalar todas las dependencias, ejecuta:
+#   pip install -r requirements.txt
+#
+# ==============================================================================
+
+# Testing Framework
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-metadata==2.0.4
+pytest-timeout==2.1.0
+pytest-ordering==1.2.1
+
+# WebDriver y Selenium
+selenium==4.15.2
+webdriver-manager==4.0.1
+
+# API Testing
+requests==2.31.0
+
+# Logging y Debugging
+python-dotenv==1.0.0
+
+# Utilities
+colorama==0.4.6
